@@ -71,9 +71,9 @@ WSGI_APPLICATION = 'nyrealestate.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'nydb',
+        'NAME': 'my_database',
         'USER': 'postgres',
-        'PASSWORD': 'QWE123',
+        'PASSWORD': 'my_password',
         'HOST': 'localhost'
     }
 }
